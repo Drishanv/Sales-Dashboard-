@@ -69,7 +69,7 @@ Total Orders = COUNT('Sales data'[OrderID])
 
 Average Order Value =
 DIVIDE([Total Sales], [Total Orders])
-
+```
 
 ---
 
