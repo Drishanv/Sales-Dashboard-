@@ -108,19 +108,16 @@ Category-wise Sales Distribution
 
 ---
 
-## 🚀 **Key Insights**
+## 🚀 Key Insights
 
-- Technology category contributes the highest share of sales
-
-- West region leads in overall sales performance
-
-- Clear monthly sales trends and seasonal patterns
-
-- High-value customers identified through Top 10 analysis
+- **Technology** category contributes the highest share of sales  
+- **West** region leads in overall sales performance  
+- Clear **monthly sales trends** and seasonal patterns are visible  
+- **High-value customers** identified through Top 10 customer analysis  
 
 ---
 
-## 👤 **Author**
+## 👤 Author
 
-Drishan Vig
+**Drishan Vig**
 
