@@ -44,7 +44,7 @@ Contains product-level information.
 ## 🔗 Data Model & Relationships
 A **star schema** data model was implemented with the Sales table as the fact table.
 
-### Relationships:
+### Relationships
 - Customer data (CustomerID) → Sales data (CustomerID)  
   - One-to-Many (1:*), Active
 - Product data (ProductID) → Sales data (ProductID)  
@@ -58,66 +58,60 @@ These relationships enable dynamic filtering across visuals using slicers for **
 The following DAX measures were created for analysis:
 
 ```DAX
-- Total Sales = SUM('Sales data'[Sales])
-- Total Profit = SUM('Sales data'[Profit])
-- Profit Margin % =
+Total Sales = SUM('Sales data'[Sales])
+
+Total Profit = SUM('Sales data'[Profit])
+
+Profit Margin % =
 DIVIDE([Total Profit], [Total Sales]) * 100
-- Total Orders = COUNT('Sales data'[OrderID])
-- Average Order Value =
+
+Total Orders = COUNT('Sales data'[OrderID])
+
+Average Order Value =
 DIVIDE([Total Sales], [Total Orders])
 
-## 📈 **Dashboard Visualizations**
+
+---
+
+## 📈 Dashboard Visualizations
 
 The dashboard includes the following visuals:
 
-1. KPI Cards
-
+### 1. KPI Cards
 - Total Sales
-
 - Total Profit
-
 - Profit Margin %
-
 - Total Orders
 
-2. Bar Chart
+### 2. Bar Chart
+- Region-wise Sales
 
-Region-wise Sales
+### 3. Donut Chart
+- Profit by Category
 
-3. Donut Chart
+### 4. Line Chart
+- Monthly Sales Trend
 
-Profit by Category
+### 5. Table
+- Top 10 Customers by Sales
 
-4. Line Chart
+### 6. Treemap
+- Category-wise Sales Distribution
 
-Monthly Sales Trend
-
-5. Table
-
-Top 10 Customers by Sales
-
-6. Treemap
-
-Category-wise Sales Distribution
-
-7. Slicers
-
+### 7. Slicers
 - Category
-
 - Region
 
 ---
 
 ## 🚀 Key Insights
-
-- **Technology** category contributes the highest share of sales  
-- **West** region leads in overall sales performance  
-- Clear **monthly sales trends** and seasonal patterns are visible  
-- **High-value customers** identified through Top 10 customer analysis  
+- **Technology** category contributes the highest share of sales
+- **West** region leads in overall sales performance
+- Clear **monthly sales trends** and seasonal patterns are visible
+- **High-value customers** identified through Top 10 customer analysis
 
 ---
 
 ## 👤 Author
-
 **Drishan Vig**
 
