@@ -113,5 +113,5 @@ The dashboard includes the following visuals:
 ---
 
 ## 👤 Author
-**Drishan Vig**
+[**Drishan Vig**](https://www.linkedin.com/in/drishan-vig/)
 
